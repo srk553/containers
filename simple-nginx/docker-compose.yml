@@ -3,7 +3,7 @@ services:
   nginx:
     image: nginx:latest
     volumes:
-    - /home/student/nginx-configuration:/tmp
+    - /home/lab/nginx-configuration:/tmp
     ports:
     - 80:80
     - 443:443
